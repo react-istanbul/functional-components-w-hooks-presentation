@@ -20,13 +20,15 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1920,
+              maxHeight: 700,
+              linkImagesToOriginal: false
             },
           },
           {

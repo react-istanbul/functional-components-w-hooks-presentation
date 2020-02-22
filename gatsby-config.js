@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
+    name: `Sinan Aksay`,
+    title: `Functional components with hooks`,
     date: `July 30, 2018`,
   },
   plugins: [

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-deck",
-  "description": "Create presentations using Gatsby, React & Markdown.",
+  "name": "functional-components-with-hooks-talk",
+  "description": "A presentation for my talk for React JS Istanbul Meetup",
   "version": "2.0.0",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Sinan Aksay <sinanaksay@gmail.com>",
   "dependencies": {
     "gatsby": "^2.2.0",
     "gatsby-plugin-layout": "^1.0.1",
@@ -28,7 +28,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

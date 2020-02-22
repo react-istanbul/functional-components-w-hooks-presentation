@@ -182,11 +182,13 @@
    margin: 40px auto;
    text-align: left;
    padding: 0 18px;
+   max-height: 80vh;
+   overflow: auto;
  }
  
  pre[class*="language-"] {
    overflow: auto;
-   padding: 1em;
+   padding: 1em-0dcv
  }
  
  pre[class*="language-"]::-moz-selection {

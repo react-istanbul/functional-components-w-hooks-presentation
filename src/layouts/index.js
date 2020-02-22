@@ -6,6 +6,7 @@ import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
 
 import './index.css';
+import './prism.css';
 
 const Header = ({ name, title, date }) => (
   <header>

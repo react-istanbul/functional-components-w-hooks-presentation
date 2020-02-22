@@ -29,6 +29,12 @@ module.exports = {
               maxWidth: 1920,
             },
           },
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              inlineCodeMarker: '÷'
+            }
+          }
         ],
       },
     },

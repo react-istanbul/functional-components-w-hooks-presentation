@@ -120,9 +120,12 @@ a:hover {
   color: var(--accent);
 }
 
+h1, h2, h3 {
+  margin-top: 0;
+}
+
 h1 {
   font-size: 200%;
-
   margin-bottom: 0.5rem;
 }
 
@@ -134,6 +137,14 @@ h2 {
 h3 {
   font-size: 100%;
   margin-bottom: 0.5rem;
+}
+
+h1 + .gatsby-highlight, h2 + .gatsby-highlight, h3 + .gatsby-highlight {
+  margin-top: 40px;
+}
+
+.gatsby-highlight + .gatsby-highlight {
+  margin-top: 10px;
 }
 
 p {

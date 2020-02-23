@@ -1,4 +1,4 @@
-# "Dumb" component
+# "Dumb" component 
 
 ### AKA: Stateless, presentation or functional components
 

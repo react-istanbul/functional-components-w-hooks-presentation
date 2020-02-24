@@ -183,3 +183,14 @@ header a:hover {
 header span {
   color: var(--text);
 }
+
+#slide ul {
+  display: inline-block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slide li + li {
+  margin-top: 28px;
+}

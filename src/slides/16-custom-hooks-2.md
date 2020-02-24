@@ -15,8 +15,8 @@ function usePlayerLevel(playerId) {
 ```
 
 ```jsx
-function playerCard({ playerID }) {
-  const level = usePlayerLevel()
+function playerCard({ playerId }) {
+  const level = usePlayerLevel(playerId) 
   
   return <div>lvl: {level}</div>
 }

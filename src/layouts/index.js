@@ -32,8 +32,6 @@ class TemplateWrapper extends Component {
   navigate = ({ keyCode }) => {
     const now = this.props.data.slide.index;
 
-    console.log({ now })
-
     const slidesLength = this.props.slidesLength;
 
     if (now) {

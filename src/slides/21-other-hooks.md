@@ -9,3 +9,7 @@
 * useRef
 
 * useReducer
+
+* useMemo
+
+* useCallback

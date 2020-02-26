@@ -20,7 +20,7 @@ class Chat extends React.Component {
 ```jsx
 function Chat({ userId }) {
   useEffect(() => {
-    fetchUserData(userId)
+    subscribeToChat(userId)
     return () => unsubscribeFromChat(userId)
   }, [userId])
 }

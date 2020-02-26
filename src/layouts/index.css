@@ -189,8 +189,35 @@ header span {
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  justify-content: flex-start;
 }
 
 #slide li + li {
   margin-top: 28px;
+}
+
+.about {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.aboutLi {
+  display: inline-flex;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.aboutLi a {
+  color: #0079ff;
+  text-decoration: underline;
+}
+
+.aboutLi .gatsby-resp-image-wrapper {
+  width: 40px;
+  height: 40px; 
+  margin-left: 0 !important;
+  margin-right: 30px !important;
+  position: relative;
+  align-self: center;
 }

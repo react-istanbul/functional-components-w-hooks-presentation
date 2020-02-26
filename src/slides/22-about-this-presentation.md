@@ -1,9 +1,13 @@
 # About this presentation
 
-<br>
-
-This presentation is built with Gatsby.
-
-You can find it online at [hooks.wunnle.dev](https://hooks.wunnle.dev)
-
-And the source on [Github](https://github.com/wunnle/functional-components-w-hooks-presentation)
+<div class="about">
+  <div class='aboutLi'>
+    <img src='./link.png'/> <a href="https://hooks.wunnle.dev">hooks.wunnle.dev</a>
+  </div>
+  <div class='aboutLi'>
+    <img src='./gatsby.png'/> Built with Gatsby.
+  </div>
+  <div class='aboutLi'>
+    <img src='./github.png'/> <span> Source on  <a href="https://github.com/wunnle/functional-components-w-hooks-presentation">GitHub</a></span>
+  </div>
+</div>

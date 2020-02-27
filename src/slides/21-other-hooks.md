@@ -1,9 +1,5 @@
 # Other hooks
 
-<br>
-
-
-
 * useContext
 
 * useRef
@@ -13,3 +9,5 @@
 * useMemo
 
 * useCallback
+
+[read on React docs](https://reactjs.org/docs/hooks-reference.html#additional-hooks)

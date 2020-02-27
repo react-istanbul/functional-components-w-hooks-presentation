@@ -4,7 +4,7 @@
 
 
 ```jsx
-const Dialog = ({ title, message, buttonText, handleConfirm  }) => {
+const Dialog = ({ title, message, buttonText, handleConfirm }) => {
   return (
     <div className='dialog'>
       <h1>{title}</h1>
